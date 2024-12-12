@@ -3,12 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const itemList = document.getElementById("itemList");
   const BASE_URL = "http://localhost:3000/items"; 
 
-  // Fetch and display items
   function fetchItems() {
     fetch(BASE_URL)
       .then((response) => response.json())
       .then((items) => {
-        itemList.innerHTML = ""; // Clear existing items
+        itemList.innerHTML = ""; 
         items.forEach((item) => {
           const row = document.createElement("tr");
           row.innerHTML = `
