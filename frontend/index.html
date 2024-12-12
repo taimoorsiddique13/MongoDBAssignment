@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Item Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Item Management</h1>
+
+    <form id="itemForm">
+      <input type="text" id="itemName" placeholder="Item Name" required>
+      <input type="number" id="itemQuantity" placeholder="Quantity" required>
+      <button type="submit">Add Item</button>
+    </form>
+
+    <table id="itemTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="itemList">
+        <!-- Items will be dynamically added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
