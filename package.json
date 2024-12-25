@@ -9,13 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This repository showcases a basic CRUD application implemented with a RESTful API and MongoDB as the backend database. The application is built using the Express.js framework, demonstrating efficient routing, middleware, and database integration to perform Create, Read, Update, and Delete operations.",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "mongoose": "^8.8.3",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.9"
   }
 }
